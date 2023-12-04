@@ -116,7 +116,7 @@ mar_code = 1 if married == "Married" else 0
 
 #female
 gender_options = ["Female", "Male", "Other", "Refused"]
-gender = st.selectbox("Select Martial Status:", gender_options)
+gender = st.selectbox("Select Gender:", gender_options)
 gender_code = 1 if gender == "Female" else 0
 
 #age
